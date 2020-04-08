@@ -1,0 +1,8 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/*
+    - /var/log/*/*
+output.console:
+  enabled: true
