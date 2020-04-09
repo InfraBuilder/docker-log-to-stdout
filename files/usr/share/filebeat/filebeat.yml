@@ -4,5 +4,10 @@ filebeat.inputs:
   paths:
     - /var/log/*
     - /var/log/*/*
+
 output.console:
   enabled: true
+
+path.data: "/data"
+path.logs: "/logs"
+
